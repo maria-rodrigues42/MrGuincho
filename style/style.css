@@ -1,8 +1,8 @@
-/* --- Estilos Gerais e Mobile First --- */
+
 :root {
-    --cor-primaria: #007bff; /* Azul */
-    --cor-secundaria: #ffc107; /* Amarelo */
-    --cor-whatsapp: #25d366; /* Verde */
+    --cor-primaria: #007bff; 
+    --cor-secundaria: #ffc107; 
+    --cor-whatsapp: #25d366; 
     --cor-texto: #333;
     --cor-fundo: #f4f4f4;
 }
@@ -29,7 +29,6 @@ body {
 /* --- Header --- */
 .main-header {
     background: #fff;
-    padding: 10px 0;
     border-bottom: 1px solid #ddd;
     position: sticky;
     top: 0;
@@ -43,7 +42,8 @@ body {
 }
 
 .main-header .logo img {
-    height: 3rem;
+    width: 15vw;
+    
 }
 
 .main-nav {
@@ -169,8 +169,7 @@ section h2 {
     padding: 40px 0 20px 0;
 }
 .main-footer .logo img {
-    height: 40px;
-    margin-bottom: 20px;
+    height: 5rem;
 }
 .main-footer .copyright {
     font-size: 0.8rem;
