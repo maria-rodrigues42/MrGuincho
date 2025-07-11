@@ -1,6 +1,6 @@
 
 :root {
-    --cor-primaria: #13005d; 
+    --cor-primaria: #180079; 
     --cor-secundaria: #ff6300; 
     --cor-terciaria: #C9E6F0;
     --cor-whatsapp: #25d366; 
@@ -176,7 +176,7 @@ section h2 {
 }
 .main-footer .logo img {
     width: 50vw;
-    background-color: #ffc457;
+    background-color: #e5feff;
     border-radius: 7%;
     margin-bottom: 1rem;
 }
