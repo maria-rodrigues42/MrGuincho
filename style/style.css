@@ -233,4 +233,12 @@ section h2 {
     .diferenciais-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .main-header .logo img {
+    width: 10vw;
+    }
+
+    .main-footer .logo img {
+    width: 10vw;
+    }
 }
