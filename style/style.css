@@ -1,10 +1,11 @@
 
 :root {
-    --cor-primaria: #007bff; 
-    --cor-secundaria: #ffc107; 
+    --cor-primaria: #13005d; 
+    --cor-secundaria: #ff6300; 
+    --cor-terciaria: #C9E6F0;
     --cor-whatsapp: #25d366; 
     --cor-texto: #333;
-    --cor-fundo: #f4f4f4;
+    --cor-fundo: #FBF8EF;
 }
 
 * {
@@ -42,7 +43,7 @@ body {
 }
 
 .main-header .logo img {
-    width: 15vw;
+    width: 30vw;
     
 }
 
@@ -62,12 +63,17 @@ body {
 
 /* --- Seção Hero --- */
 .hero {
-    background-image: url('../images/background_image.jpeg');
+    background-image: url('../images/fundo_sessao.jpeg');
+    align-self: center;
     color: #fff;
     text-align: center;
     padding: 80px 0;
     position: relative;
+    background-position: center center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Garante que a imagem cubra todo o espaço, mantendo a proporção */
 }
+
 .hero::after { /* Escurece a imagem de fundo para o texto ficar legível */
     content: '';
     position: absolute;
@@ -163,13 +169,16 @@ section h2 {
 
 /* --- Rodapé --- */
 .main-footer {
-    background: var(--cor-texto);
+    background: #080027;
     color: #fff;
     text-align: center;
     padding: 40px 0 20px 0;
 }
 .main-footer .logo img {
-    height: 5rem;
+    width: 50vw;
+    background-color: #ffc457;
+    border-radius: 7%;
+    margin-bottom: 1rem;
 }
 .main-footer .copyright {
     font-size: 0.8rem;
@@ -197,6 +206,7 @@ section h2 {
 
     .header-button {
         display: block;
+        color: var(--cor-primaria);
     }
 
     .hero h1 {
